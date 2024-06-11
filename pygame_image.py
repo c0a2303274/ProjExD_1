@@ -35,6 +35,8 @@ def main():
             k_rect.move_ip(-1, 0)
         if key_lst[pg.K_RIGHT]:
             k_rect.move_ip(1, 0)
+        else:
+            k_rect.move_ip(-1, 0)
 
         screen.blit(k_3, k_rect)
         pg.display.update()
