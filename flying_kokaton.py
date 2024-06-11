@@ -35,7 +35,7 @@ def main():
         if key_lst[pg.K_LEFT]:
             dxy[0] -= 1
         if key_lst[pg.K_RIGHT]:
-            dxy[0] += 3
+            dxy[0] += 2
         k_rect.move_ip(dxy)
 
         screen.blit(k_3, k_rect)
